@@ -21,7 +21,7 @@
 ## Introduction
 ```ad-summary
 title: Approach
-collapse: open
+
 TypeScript se encuentra en una relación inusual con JavaScript. TypeScript ofrece todas las características de JavaScript, y una capa adicional sobre éstas: El sistema de tipos de TypeScript.
 
 Por ejemplo, JavaScript proporciona primitivas del lenguaje como **string** y **number**, pero no comprueba que los hayas asignado consistentemente. TypeScript sí lo hace.
@@ -32,7 +32,7 @@ Esto significa que tu código JavaScript existente también es código TypeScrip
 ### Basics
 ```ad-todo
 title: Types by Inference
-collapse: open
+
 TypeScript conoce el lenguaje JavaScript y generará tipos por ti en muchos casos. Por ejemplo, al crear una variable y asignarle un valor concreto, TypeScript utilizará el valor como tipo.
 
 ```ts
@@ -73,7 +73,7 @@ Puedes utilizar una gran variedad de patrones de diseño en JavaScript. Sin emba
 ## Introduction
 ```ad-summary
 title: Approach
-collapse: open
+
 TypeScript se encuentra en una relación inusual con JavaScript. TypeScript ofrece todas las características de JavaScript, y una capa adicional sobre éstas: El sistema de tipos de TypeScript.
 
 Por ejemplo, JavaScript proporciona primitivas del lenguaje como **string** y **number**, pero no comprueba que los hayas asignado consistentemente. TypeScript sí lo hace.
@@ -84,7 +84,7 @@ Esto significa que tu código JavaScript existente también es código TypeScrip
 ### Basics
 ```ad-todo
 title: Types by Inference
-collapse: open
+
 TypeScript conoce el lenguaje JavaScript y generará tipos por ti en muchos casos. Por ejemplo, al crear una variable y asignarle un valor concreto, TypeScript utilizará el valor como tipo.
 
 ```ts
