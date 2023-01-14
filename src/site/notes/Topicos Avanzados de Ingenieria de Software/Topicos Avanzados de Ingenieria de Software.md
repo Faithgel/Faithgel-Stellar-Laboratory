@@ -39,5 +39,21 @@ Especificación, desarrollo, validación y evolución del software.
 
 ```
 
+```ad-question
+title: ¿Cuál es la diferencia entre ingeniería de software y ciencias de la computación?
+Las ciencias de la computación se enfocan en teoría y  
+fundamentos; mientras la ingeniería de software se enfoca en el  
+sentido práctico del desarrollo y en la distribución de software.
+```
+
+```ad-question
+title: ¿Cuál es la diferencia entre ingeniería de software e ingeniería de sistemas?
+La ingeniería de sistemas se interesa por todos los aspectos  
+del desarrollo de sistemas basados en computadoras, incluidos  
+hardware, software e ingeniería de procesos. La ingeniería de  
+software es parte de este proceso más general.
+
+```
+
 
 </div></div>
