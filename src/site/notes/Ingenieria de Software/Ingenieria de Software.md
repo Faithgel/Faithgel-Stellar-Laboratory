@@ -11,7 +11,7 @@ Puedes trabajar con [[Spring/Spring Boot\|Spring Boot]] o [[Nest.js/Nest.js\|Nes
 
 
 
-# Introduccion
+# Introducción
 
 ```ad-summary
 title: ¿Que es software?
