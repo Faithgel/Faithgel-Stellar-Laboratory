@@ -3,6 +3,10 @@
 ---
 
 
+## [[Administracion y Programacion de Base de Datos/Administracion y Programacion de Base de Datos\|Administracion y Programacion de Base de Datos]]
+
+
+
 ## [[Algoritmos y Estructura de Datos Avanzados/Algoritmos y Estructura de Datos Avanzados\|Algoritmos y Estructura de Datos Avanzados]]
 
 
@@ -12,10 +16,6 @@
 
 
 ## [[Ingenieria de Software/Ingenieria de Software\|Ingenieria de Software]]
-
-
-
-## [[Administracion y Programacion de Base de Datos/Administracion y Programacion de Base de Datos\|Administracion y Programacion de Base de Datos]]
 
 
 
