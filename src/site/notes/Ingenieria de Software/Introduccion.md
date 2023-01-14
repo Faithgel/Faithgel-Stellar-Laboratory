@@ -3,7 +3,7 @@
 ---
 
 
-# Introduccion
+# Introducción
 
 ```ad-summary
 title: ¿Que es software?
