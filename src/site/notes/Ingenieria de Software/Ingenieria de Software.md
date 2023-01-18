@@ -13,7 +13,6 @@ Puedes trabajar con [[Spring/Spring Boot\|Spring Boot]] o [[Nest.js/Nest.js\|Nes
 
 
 
-
 ```ad-summary
 title: ¿Que es software?
 Programas de cómputo y documentación asociada.  
@@ -59,8 +58,10 @@ software es parte de este proceso más general.
 ```
 
 
+
 </div></div>
 
 # Introducción al Desarrollo de Software
 ## Conceptos Basicos
 ¡[[Ingenieria de Software/Introduccion al Desarrollo de Software/Conceptos Basicos\|Conceptos Basicos]]
+#ingenieria #software
