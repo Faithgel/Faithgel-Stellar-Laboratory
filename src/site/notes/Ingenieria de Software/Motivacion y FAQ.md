@@ -3,7 +3,6 @@
 ---
 
 
-
 ```ad-summary
 title: ¿Que es software?
 Programas de cómputo y documentación asociada.  
@@ -47,3 +46,4 @@ hardware, software e ingeniería de procesos. La ingeniería de
 software es parte de este proceso más general.
 
 ```
+
