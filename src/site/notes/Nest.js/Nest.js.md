@@ -25,6 +25,7 @@ Esto significa que tu código JavaScript existente también es código TypeScrip
 
 ```
 ### Basics
+#### Types
 ```ad-todo
 title: Types by Inference
 
@@ -40,6 +41,29 @@ title: Defining Types
 Puedes utilizar una gran variedad de patrones de diseño en JavaScript. Sin embargo, algunos patrones de diseño dificultan que los tipos se infieran automáticamente (por ejemplo, los patrones que utilizan programación dinámica). Para cubrir estos casos, TypeScript soporta una extensión del lenguaje JavaScript, que ofrece lugares para que le digas a TypeScript cuáles deberían ser los tipos.
 ```
 
+```ad-info
+title: Composing Types
+With TypeScript, you can create complex types by combining simple ones. There are two popular ways to do so: with unions, and with generics.
+```
+```ad-example
+title: Union (1)
+(Union)
+Con una unión, puede declarar que un tipo puede ser uno de muchos tipos. Por ejemplo, puede describir un tipo booleano como verdadero o falso:
+```ts
+type MyBool = true | false;
+```
+```ad-example
+title: Union (2)
+Un caso de uso popular para los tipos de unión es describir el conjunto de literales de cadena o numéricos que un valor puede ser:
+```ts
+type WindowStates = "open" | "closed" | "minimized";type LockStates = "locked" | "unlocked";type PositiveOddNumbersUnderTen = 1 | 3 | 5 | 7 | 9;
+```
+```ad-example 
+title: Union (3)
+Las uniones también permiten manejar distintos tipos. Por ejemplo, puedes tener una función que tome un array o una cadena
+```ts
+function getLength(obj: string | string[]) {  return obj.length;}
+```
 
 
 </div></div>
