@@ -47,7 +47,6 @@ With TypeScript, you can create complex types by combining simple ones. There ar
 ```
 ```ad-example
 title: Union (1)
-(Union)
 Con una unión, puede declarar que un tipo puede ser uno de muchos tipos. Por ejemplo, puede describir un tipo booleano como verdadero o falso:
 ```ts
 type MyBool = true | false;
@@ -60,10 +59,18 @@ type WindowStates = "open" | "closed" | "minimized";type LockStates = "locked" |
 ```
 ```ad-example 
 title: Union (3)
-Las uniones también permiten manejar distintos tipos. Por ejemplo, puedes tener una función que tome un array o una cadena
+Las uniones también permiten manejar distintos tipos. Por ejemplo, puedes tener una función que tome un array o una string
 ```ts
 function getLength(obj: string | string[]) {  return obj.length;}
 ```
+```ad-example 
+title: Generics
+Los genéricos proporcionan variables a los tipos. Un ejemplo común es un array. Un array sin genéricos puede contener cualquier cosa. Un array con genéricos puede describir los valores que contiene.
+```ts 
+type StringArray = Array<string>;  type NumberArray = Array<number>;  
+type ObjectWithNameArray = Array<{ name: string }>;
+```
+
 
 
 </div></div>
