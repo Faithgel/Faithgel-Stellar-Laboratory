@@ -59,7 +59,7 @@ type WindowStates = "open" | "closed" | "minimized";type LockStates = "locked" |
 title: Union (3)
 Las uniones también permiten manejar distintos tipos. Por ejemplo, puedes tener una función que tome un array o una string
 ```ts
-function getLength(obj: string | string[]) {  return obj.length;}
+function getLength(obj: string | string[]) {  return obj.length; }
 ```
 ```ad-example 
 title: Generics
