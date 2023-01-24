@@ -3,7 +3,8 @@
 ---
 
 ```ad-important
-title: Revisar Conceptos de Ingenieria de Software. Si ya tienes conocimiento del area puedes saltarte este callout, pero si no los tienes o te interesa revisa aquí: [[Ingenieria de Software]]
+title: Revisar Conceptos de Ingenieria de Software. 
+Si ya tienes conocimiento del area puedes saltarte este callout, pero si no los tienes o te interesa revisa aquí: [[Ingenieria de Software]]
 ```
 # Basics
 
@@ -61,7 +62,7 @@ type WindowStates = "open" | "closed" | "minimized";type LockStates = "locked" |
 title: Union (3)
 Las uniones también permiten manejar distintos tipos. Por ejemplo, puedes tener una función que tome un array o una string
 ```ts
-function getLength(obj: string | string[]) {  return obj.length;}
+function getLength(obj: string | string[]) {  return obj.length; }
 ```
 ```ad-example 
 title: Generics
@@ -74,3 +75,75 @@ type ObjectWithNameArray = Array<{ name: string }>;
 
 
 </div></div>
+
+# ¿Que es Nest? y ¿Por qué debemos usarlo?
+
+```ad-hint 
+title: Imaginemos
+Tenemos a rose que tiene una tienda y ella vende articulos varios , pero se da cuenta que hay servicios de terceros que le ayudan a vender los porductos que tenga en catalago en stock pero esto mismo no es algo totalmente administrado por ella a lo cual ella tiene la necesidad de un **API** que le permita mostrar lo que ella ofrece tanto para su negocio como para mostrarlo a traves de terceros, pero no es algo robusto ya que su tienda es pequeña.
+
+Ahora supongamos que la tienda de rose comienza a crecer y esta misma API se le es requerido que tenga mecanismos de autenticacion, modulos de E-Commerce, entre otras cosas.
+
+Ante esta nueva necesidad a resolver se necesitara que la API este bien cimentada para soportar la envergadura, si no es posible a que esta misma siga escalando probablemente se tenga que desechar dicha API.
+
+Rose se decide por rehacer todo con nuevas herramientas, caracteristicas y problemas a enfrentar.
+
+- En este caso opta por el camino de usar Node.js para comenzar su proyecto (con la siguiente estructura en su proyecto)
+
+```js
+"Rose-API"
+"-----------------"
+"-package.json"
+"-package-lock.json"
+```
+```ad-hint
+title: Imaginemos (Continuacion)
+A partir de esto rose comienza a tener varias dudas de como empezar:
+-¿Como Manejo las rutas?
+-¿Como manejo la autenticacion?
+-¿Como estructuro mi proyecto?
+   - Controllers
+   - Middlewares
+   - Validations
+   - Exceptions
+   - etc...
+La ultima pregunta es ¿en que Framework debo usar para mi API?
+- Express o Fastify
+```
+```ad-hint
+title: Solucion
+Rose despues de investigar un poco decide usar Nest.js ya que este framework le permite tener una estructura robusta y escalable para su API.
+
+Y su sistema de archivos se ve de la siguiente manera:
+
+```js
+"Rose-API"
+"-----------------"
+"-src"
+"---app.module.ts"
+"---main.ts"
+"---app.controller.ts"
+"---app.service.ts"
+"-test"
+"eslintrc.js"
+".prettierrc"
+"nest-cli.json"
+"package.json"
+"readme.md"
+"tsconfig.build.json"
+```
+
+```ad-important
+title: Caracteristicas de Nest.js
+- **Robusto**: Nest.js es un framework robusto que permite tener una estructura escalable y robusta para tu API.
+- **Modular**: Nest.js permite tener un sistema de modulos que con el tiempo se pueden ir reutilizando.
+- **Dogmático**: Nest.js tiene una estructura de carpetas y archivos que permite tener un orden y una estructura de trabajo, por lo cual la mayor parte de tu estructura de proyecto es similar a la de otros proyectos.
+```
+```ad-attention
+title: Instalando Nest.js
+Para instalar el cli de nest debemos ejecutar el siguiente comando, si te encuentras en un MacOS o alguna distro GNU/linux debes anteponer sudo ya que es un comando de nivel administrador:
+```sh
+npm i -g @nestjs/cli
+```
+
+## Modules
