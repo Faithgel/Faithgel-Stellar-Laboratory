@@ -107,8 +107,9 @@ A partir de esto rose comienza a tener varias dudas de como empezar:
    - Validations
    - Exceptions
    - etc...
+
 La ultima pregunta es ¿en que Framework debo usar para mi API?
-- Express o Fastify
+
 ```
 ```ad-hint
 title: Solucion
