@@ -19,5 +19,13 @@
 
 
 
+## [[Metodologías de Investigación/Metodologias de Investigacion\|Metodologias de Investigacion]]
+
+
+
+## [[Gestión de Recursos Humanos/Gestion de Recursos Humanos\|Gestion de Recursos Humanos]]
+
+
+
 
 
