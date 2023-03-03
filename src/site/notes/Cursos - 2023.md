@@ -3,19 +3,19 @@
 ---
 
 
-## [[Angular/Angular\|Angular]]
+## [[Cursos/Angular/Angular\|Angular]]
 
 
 
-## [[Nest.js/Nest.js\|Nest.js]]
+## [[Cursos/Nest.js/Nest.js\|Nest.js]]
 
 
 
-## [[Typescript/Typescript\|Typescript]]
+## [[Cursos/Typescript/Typescript\|Typescript]]
 
 
 
-## [[Spring/Spring Boot\|Spring Boot]]
+## [[Cursos/Spring/Spring Boot\|Spring Boot]]
 
 
 
