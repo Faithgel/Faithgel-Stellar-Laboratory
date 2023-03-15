@@ -55,7 +55,7 @@ title: Usabilidad (Evaluacion)
 ```
 
 ```ad-check
-title: Hueristicas de Nielsen
+title: Heuristicas de Nielsen
 - Visibilidad y Status 
 	- Breadcrumbs
 - Correspondencia entre mundo real y la app
