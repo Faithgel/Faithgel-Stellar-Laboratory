@@ -54,4 +54,6 @@ title: Heuristicas de Nielsen
 - Flesixibilidad y eficiencia.
 - Estetica y diseño minimalista
 - Ayuda a los usuarios para reconocer, diagnosticar, y recuperar errores
+- Ayuda y Documentacion
+
 ```
