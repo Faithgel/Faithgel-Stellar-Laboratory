@@ -21,7 +21,6 @@ title: ACID
 ```
 ```ad-example
 title: Ejemplo
-collapse: true
 Supongamos que tenemos una base de datos de un sistema de ventas en línea que contiene una tabla de pedidos y una tabla de inventario. Para agregar un nuevo pedido a la base de datos, se deben realizar varias operaciones, como actualizar el inventario, registrar el pedido y actualizar el estado del pago. Estas operaciones se pueden realizar como una transacción para garantizar la integridad de los datos.
 
 Un ejemplo de una transacción en este escenario podría ser el siguiente:
