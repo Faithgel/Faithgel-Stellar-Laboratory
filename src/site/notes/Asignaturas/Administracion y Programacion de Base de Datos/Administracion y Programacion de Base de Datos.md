@@ -39,3 +39,8 @@ title: Concurrencias y planificacion
 La concurrencia se refiere a la capacidad de múltiples usuarios o procesos para acceder y modificar simultáneamente los datos almacenados en una base de datos. Cuando varios usuarios intentan acceder a los mismos datos al mismo tiempo, pueden surgir problemas de concurrencia, como bloqueos o inconsistencias en los datos. Para evitar estos problemas, los sistemas de gestión de bases de datos utilizan técnicas de control de concurrencia, como el bloqueo de registros y la transacción de control de concurrencia.
 
 La planificación se refiere al proceso de determinar el orden en que se ejecutan las operaciones en una base de datos. La planificación es importante para garantizar la consistencia de los datos y la eficiencia de la base de datos. Los sistemas de gestión de bases de datos utilizan algoritmos de planificación para determinar el orden de ejecución de las operaciones en una transacción. Los algoritmos de planificación pueden ser basados en reglas o basados en costos, y pueden ser deterministas o probabilísticos.
+```
+```ad-important
+title: Tipos de planes
+
+```
